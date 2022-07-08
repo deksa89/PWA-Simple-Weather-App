@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(112, 252, 252);
+    
+}
+
+main{
+    padding: 20px;
+    display: inline-block;
+    box-sizing:border-box;
+    border-radius: 10px;
+    border: 4px black solid;
+    width: 600px;
+    height: 630px;
+}
+
+#body-bg{
+    background-position: right;
+}
+
+#naslov{
+    font-size: 35px;
+}
+
+#input{
+    height: 40px;
+    width: 170px;
+    border-radius: 10px;
+    border-color: black;
+    text-align: left;
+    padding: 0 0 0 30px;
+}
+
+#button{
+    height: 46px;
+    width: 65px;
+    border-radius: 10px; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+.night{
+    color: white;
+}
+
+#uv-radiat{
+    color: rgb(249, 141, 141);
+}
+
+#lista{
+    position: relative;
+    left: -90px;
+}
+
+#location{
+    font-size: 30px;
+    font-style: italic;
+}
+
+#conditions{
+    position: relative;
+    width: 200px;
+    left: 22rem;
+    top: 0rem;
+}
+
+#temp{
+    position: relative;
+    left: 3rem;
+    font-weight: bold;
+    width: 290px;
+}
+
+#temp-c{
+    margin: 0;
+    font-size: 90px;
+}
+
+#cloud{
+    width: 200px;
+    position: relative;
+    left: 22rem;
+    top: -5rem;
+}
+
+#uv-rad{
+    position: relative;
+    left: 22.5rem;
+    top: -3rem;
+    width: 180px;
+}
+
+#nodata{
+    font-size: 28px;
+    position: relative;
+    top: 90px;
+    color: #9c1d86;
+}
+
+#nointernet{
+    font-size: 28px;
+    position: relative;
+    top: 90px;
+    color: #cd7298;
+}
+
+
+@media only screen and (max-width: 530px) {
+  main {
+    width: 390px;
+    height: 500px;
+    padding: 10px;
+  }
+
+#temp {
+    position: relative;
+    left: 4rem;
+    font-weight: bold;
+    width: 150px;
+    top: -84px;
+}
+#temp-c {
+    margin: 0;
+    font-size: 45px;
+}
+
+#location {
+    font-size: 20px;
+    font-style: italic;
+}
+
+#conditions {
+    position: relative;
+    width: 52px;
+    left: 18rem;
+    top: 0rem;
+}
+
+#cloud {
+    width: 52px;
+    position: relative;
+    left: 18rem;
+    top: -3rem;
+}
+
+#uv-rad {
+    position: relative;
+    left: 5.5rem;
+    top: -7rem;
+    width: 147px;
+}
+
+} 
